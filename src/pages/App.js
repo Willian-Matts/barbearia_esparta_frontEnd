@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Teste from './teste';
 import Routes from '../routes.js';
 
@@ -8,7 +8,11 @@ class App extends Component {
 
   render() {
     return (
-      <Teste></Teste>
+      <Fragment>
+        <Teste></Teste>
+        <Teste></Teste>
+      </Fragment>
+
       // <Routes />
     );
   }
