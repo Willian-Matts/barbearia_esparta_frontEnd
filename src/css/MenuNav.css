@@ -1,0 +1,37 @@
+p{
+    margin: 0;
+}
+#logoNav {
+    width: 3rem;
+}
+
+.header-brand {
+    margin: 0;
+}
+
+#box-super-header {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 0;
+    background-color: rgb(204, 94, 94);
+}
+
+.box-nav-link{
+    display: flex;
+    padding-left: 30%;
+}
+
+.button-nav{
+    border: 0;
+    border-bottom: 3px solid;
+    border-radius: 0;
+}
+
+.nav-link{
+    padding-left: 1%;
+    padding-right: 1%;
+}
