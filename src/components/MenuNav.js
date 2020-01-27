@@ -4,7 +4,7 @@ import ButtonNav from './BottonNav';
 import logoVetor from '../image/sparta_vetor.png';
 
 import '../css/MenuNav.css'
-import { Navbar, Container, Row, Col, Jumbotron, Nav, Button } from 'react-bootstrap'
+import { Navbar, Container, Row, Col, Jumbotron, Nav } from 'react-bootstrap'
 
 export default class MenuNav extends Component {
     render() {
@@ -22,10 +22,10 @@ export default class MenuNav extends Component {
                                     <Navbar.Collapse id="basic-navbar-nav">
                                         <Container className="box-nav-link">
                                             <Nav.Link href="#home">
-                                                <ButtonNav name="teste" />
+                                                <ButtonNav value="teste" />
                                             </Nav.Link>
                                             <Nav.Link href="#home">
-                                                <ButtonNav name="testando" />
+                                                <ButtonNav value="testando" />
                                             </Nav.Link>
                                         </Container>
                                     </Navbar.Collapse>
@@ -34,21 +34,7 @@ export default class MenuNav extends Component {
                         </Row>
                     </Container>
                 </Jumbotron>
-
-                {/* <Container className="box-nav">
-                    <Container>
-                        <Row>
-                            <Col className="col-md-12">
-                                <Navbar className="menu shadow">
-                                    <Navbar.Brand href="index.html" id="box-logo">
-                                        <img id='espartaVetor' src={logoVetor} alt='Logo Barbearia esparta' />
-                                    </Navbar.Brand>
-                                </Navbar>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Container> */}
-
+                <Jumbotron id="degrade-nav" />
             </>
         );
     }
