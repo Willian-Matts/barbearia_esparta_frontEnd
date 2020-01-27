@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import '../css/DivInicial.css';
-import {Container, Jumbotron } from 'react-bootstrap'
+import { Jumbotron } from 'react-bootstrap'
 
 export default class MenuNav extends Component {
     render() {
