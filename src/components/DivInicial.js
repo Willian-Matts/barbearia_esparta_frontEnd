@@ -8,12 +8,19 @@ export default class MenuNav extends Component {
         return (
             <>
                 <Jumbotron id="box-div-inicial">
-                    <Container>
+                    <Container id="box-lateral-esquerda" />
+                    <Jumbotron id="box-central">
 
-                    </Container>
-                    <Container id="box-circulo">
+                        <Container>
 
-                    </Container>
+                        </Container>
+
+                        <Container id="box-circulo">
+
+                        </Container>
+
+                    </Jumbotron>
+                    <Container id="box-lateral-direita" />
                 </Jumbotron>
             </>
         );

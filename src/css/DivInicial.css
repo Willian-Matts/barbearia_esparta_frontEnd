@@ -1,14 +1,36 @@
 #box-div-inicial {
     display: flex;
     border-radius: 0;
+    padding: 0;
     margin: 0;
-    width: 100vw;
-    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    background-color: rgb(68, 68, 68);
 }
 
-#box-circulo{
-    border-radius: 50vw;
-    width: 25rem;
-    height: 25rem;
+#box-lateral-esquerda {
+    width: 10vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#box-lateral-direita {
+    width: 10vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#box-central{
+    border-radius: 0;
+    margin: 0;
+    width: 79%;
+    background-image: url('../image/tree-bark-4k-old-tree-wood-texture-close-up.jpg');
+    background-size: cover;
+}
+
+#box-circulo {
+    border-radius: 100%;
+    width: 25vw;
+    height: 50vh;
     background-color: white;
 }
