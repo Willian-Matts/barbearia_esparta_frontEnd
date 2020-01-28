@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 
 import '../css/DivInicial.css';
-import { Jumbotron } from 'react-bootstrap'
+import { Jumbotron, Container } from 'react-bootstrap'
 
 export default class MenuNav extends Component {
     render() {
         return (
             <>
                 <Jumbotron id="box-div-inicial">
+                    <Container>
 
+                    </Container>
+                    <Container id="box-circulo">
+
+                    </Container>
                 </Jumbotron>
             </>
         );
