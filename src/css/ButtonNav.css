@@ -1,8 +1,20 @@
-p{
+p {
     margin: 0;
+    color: white;
 }
-.button-nav{
+
+p:hover {
+    
+}
+
+.button-nav {
     border: 0;
-    border-bottom: 2px solid;
     border-radius: 0px;
+    position: relative;
+}
+
+.button-nav:hover {
+    border-bottom: 2px solid;
+    background-color: unset;
+
 }
