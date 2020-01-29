@@ -8,7 +8,7 @@ export default class MenuNav extends Component {
         return (
             <>
                 <Jumbotron id="box-div-inicial">
-                    <Container id="box-lateral-esquerda" />
+                    <Container id="box-lateral" />
                     <Jumbotron id="box-central">
 
                         <Container>
@@ -20,7 +20,7 @@ export default class MenuNav extends Component {
                         </Container>
 
                     </Jumbotron>
-                    <Container id="box-lateral-direita" />
+                    <Container id="box-lateral" />
                 </Jumbotron>
             </>
         );

@@ -12,12 +12,10 @@ export default class MenuNav extends Component {
             <>
                 <Jumbotron id="box-super-header">
                     <Container>
-                        
                         <Navbar id="box-nav" expand="lg">
                             <Navbar.Brand href="#home" className="header-brand">
                                 <img id="logoNav" src={logoVetor} alt="Logo Esparta" />
                             </Navbar.Brand>
-
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="box-nav-link">
@@ -43,11 +41,7 @@ export default class MenuNav extends Component {
                             </Navbar.Collapse>
                         </Navbar>
                     </Container>
-
                 </Jumbotron>
-                <Jumbotron id="divisao-rodape" />
-                <Jumbotron id="rodape-nav" />
-                {/* <Jumbotron id="divisao-rodape-baixo" /> */}
             </>
         );
     }

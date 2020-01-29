@@ -7,24 +7,20 @@
     background-color: rgb(68, 68, 68);
 }
 
-#box-lateral-esquerda {
-    width: 10vw;
+#box-lateral {
+    width: 10%;
     margin: 0;
     padding: 0;
     background-color: black;
+    background-image: url('../image/textura-de-madeira-velha-vintage-padrao-de-madeira-marrom-escuro-para-o-fundo_49947-77.jpg');
+    background-size: 400%;
 }
 
-#box-lateral-direita {
-    width: 10vw;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
 #box-central{
     border-radius: 0;
     margin: 0;
     width: 79%;
-    background-image: url('../image/tree-bark-4k-old-tree-wood-texture-close-up.jpg');
+    background-image: url('../image/metal-camouflage-texture-4k-gray-metal-texture-metal-textures-metal-backgrounds.jpg');
     background-size: cover;
 }
 
