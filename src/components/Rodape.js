@@ -8,6 +8,9 @@ export default class Rodape extends Component {
         return (
             <>
                 <Jumbotron id="box-rodape">
+                    <Container id="box-redes-sociais">
+                        {/* redes sociais  */}
+                    </Container>
                     <Container id="box-Logo-rodape">
                         {/* Logo */}
                     </Container>
