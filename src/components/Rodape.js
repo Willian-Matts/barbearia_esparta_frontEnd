@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import '../css/DivInfo.css';
+import '../css/Rodape.css';
 import { Jumbotron, Container } from 'react-bootstrap'
 
-export default class DivInfo extends Component {
+export default class Rodape extends Component {
     render() {
         return (
             <>
-                <Jumbotron id="box-div-info">
-                    <Container id="Box-">
-
+                <Jumbotron id="box-rodape">
+                    <Container id="box-Logo-rodape">
+                        {/* Logo */}
                     </Container>
                 </Jumbotron>
             </>

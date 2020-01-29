@@ -19,7 +19,7 @@ export default class MenuNav extends Component {
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="box-nav-link">
-                                    <Nav.Link href="#home">
+                                    <Nav.Link href="#box-div-inicial">
                                         <ButtonNav value="teste" />
                                     </Nav.Link>
                                     <Nav.Link href="#home">

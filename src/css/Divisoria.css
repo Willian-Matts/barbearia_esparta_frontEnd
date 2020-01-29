@@ -1,0 +1,14 @@
+#box-div-info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    border-top: 0.7vh dashed;
+    border-bottom: 0.7vh dashed;
+    border-color: rgb(190, 40, 10);
+    height: 20vh;
+    margin: 0;
+    padding: 2%;
+    background-color: rgb(29, 29, 29);
+
+}
