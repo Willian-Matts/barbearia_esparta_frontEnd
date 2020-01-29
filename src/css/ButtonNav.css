@@ -12,6 +12,5 @@ p {
 .button-nav:hover {
     border-bottom: 2px solid;
     background-color: unset;
-    padding: 0;
-
+    margin: -1vh;
 }
