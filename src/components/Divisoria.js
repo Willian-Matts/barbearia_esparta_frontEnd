@@ -7,7 +7,7 @@ export default class Divisoria extends Component {
     render() {
         return (
             <>
-                <Jumbotron id="box-div-info">
+                <Jumbotron id="box-divisoria">
                     <Container id="">
                         
                     </Container>
