@@ -4,7 +4,7 @@ import './css/app.css';
 import MenuNav from './components/MenuNav';
 import DivInicial from './components/DivInicial';
 
-import {Jumbotron} from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
 
 class App extends Component {
 

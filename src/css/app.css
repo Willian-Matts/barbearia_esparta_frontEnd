@@ -10,11 +10,9 @@ body {
 }
 
 #fundo {
+    border-radius: 0;
     background-image: url('../image/post-blog-estudio-roxo-o-sucesso-das-barbearias-2-4-2.jpg');
-    
-    filter: blur(none);
-    background-size: 500vh;
-    background-size: cover;
+    background-repeat: round;
     padding: 0;
     padding-bottom: 20vh;
     margin: 0;
