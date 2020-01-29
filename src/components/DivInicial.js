@@ -11,7 +11,7 @@ export default class MenuNav extends Component {
                     <Container id="box-lateral" />
                     <Jumbotron id="box-central">
 
-                        <Container>
+                        <Container id="box-info">
 
                         </Container>
 

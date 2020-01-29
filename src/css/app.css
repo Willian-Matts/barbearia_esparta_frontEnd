@@ -11,6 +11,7 @@ body {
 
 #fundo {
     background-image: url('../image/post-blog-estudio-roxo-o-sucesso-das-barbearias-2-4-2.jpg');
+    background-size: 500vh;
     background-size: cover;
     padding: 0;
     padding-bottom: 20vh;
