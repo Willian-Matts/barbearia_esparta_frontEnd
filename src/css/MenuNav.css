@@ -1,18 +1,55 @@
-p {
-    margin: 0;
-}
-
-#logoNav {
-    width: 3rem;
-}
-
-.header-brand {
-    margin: 0;
-}
-
 #box-super-header {
     position: relative;
-    height: 15%;
+    display: flex;
+    height: auto;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5vw;
+    border-radius: 0;
+    justify-content: space-around;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, rgb(110, 110, 110), rgba(110, 110, 110, 0.550));
+    transition: 0.5s;
+}
+
+#box-super-header:hover{
+    background: rgba(122, 121, 121, 0.527);
+    background-image: linear-gradient(180deg, rgb(122, 121, 121), rgba(65, 65, 65, 0.580))
+}
+
+#box-super-header #box-nav {
+    position: relative;
+    display: flex;
+}
+
+#box-super-header #box-nav #box-logo{
+    position: relative;
+    padding: 0;
+    margin-right: 30vw;
+    width: 10vw;
+}
+
+#box-super-header #box-nav #box-logo img {
+    width: 8vw;
+}
+
+#box-super-header #box-nav .box-nav-link {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* #box-super-header {
+    position: relative;
     display: flex;
     margin: 0;
     margin-bottom: 10vh;
@@ -20,49 +57,36 @@ p {
     padding-top: 3vh;
     padding-bottom: 3vh;
     border-radius: 0;
+    align-content: space-between;
     background-color: transparent;
-    background-image: linear-gradient(180deg, rgb(110, 108, 108), rgba(110, 108, 108, 0.548));
+    background-image: linear-gradient(180deg, rgb(110, 110, 110), rgba(110, 110, 110, 0.550));
+    transition: 0.5s;
 }
 
-#box-nav {
+#box-super-header:hover{
+    background: rgba(122, 121, 121, 0.527);
+    background-image: linear-gradient(180deg, rgb(122, 121, 121), rgba(65, 65, 65, 0.580))
+}
+#box-super-header .container{
+    margin: 0;
+}
+
+#box-super-header #box-nav {
     padding: inherit;
-    justify-content: center;
 }
 
-.box-nav-link {
+#box-super-header #box-nav .header-brand {
+    margin: 0;
+}
+
+#box-super-header #box-nav .header-brand img {
+    width: 10rem;
+}
+
+#box-super-header #box-nav .box-nav-link {
+    position: relative;
     display: flex;
     margin: 0;
     padding: 0;
     padding-left: 30vw;
-}
-
-#rodape-nav {
-    border-radius: 0;
-    padding: 0.6vh;
-    margin: 0;
-    margin-bottom: 10vh;
-    box-shadow: 0px 9px 32px 5px rgb(0, 0, 0);
-    background-image: url('../image/47133.jpg');
-    background-size: cover;
-    /* background-image: linear-gradient( 125deg, rgb(218, 165, 32), rgb(253, 231, 106), rgb(218, 165, 32), rgb(253, 231, 106), rgb(218, 165, 32), rgb(253, 231, 106), rgb(218, 165, 32)100%); */
-}
-
-#divisao-rodape {
-    border-radius: 0;
-    padding: 2vh;
-    margin: 0;
-    background-image: url('../image/fundo-abstrato-textura-de-madeira-sem-costura_23-2148283204.jpg');
-}
-
-#divisao-rodape-baixo {
-    border-radius: 0px 0px 3px 3px;
-    padding: 0.4vh;
-    margin: 0;
-    margin-bottom: 5%;
-    box-shadow: 0px 9px 32px 5px rgb(0, 0, 0);
-    background-image: url('../image/fundo-abstrato-textura-de-madeira-sem-costura_23-2148283204.jpg');
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
+} */
