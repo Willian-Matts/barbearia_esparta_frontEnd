@@ -4,7 +4,7 @@ import ButtonNav from './BottonNav';
 import logoVetor from '../image/logo/Logo-3.svg';
 
 import '../css/MenuNav.css';
-import { Navbar, Container, Jumbotron, Nav, Col, Row } from 'react-bootstrap'
+import { Navbar, Jumbotron, Nav } from 'react-bootstrap'
 
 export default class MenuNav extends Component {
     render() {

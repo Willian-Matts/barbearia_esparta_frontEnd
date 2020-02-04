@@ -2,28 +2,23 @@ import React, { Component } from 'react';
 
 import '../css/DivInicial.css';
 import { Jumbotron, Container } from 'react-bootstrap'
+import Carrossel from './Carrossel';
 
 export default class DivInicial extends Component {
     render() {
         return (
             <>
+                <Carrossel />
+                {/* <Jumbotron id="fundo-inicio"> */}
                 <Jumbotron id="box-div-inicial">
-                    <Container id="box-lateral" />
-                    <Jumbotron id="box-central">
+                    <Container>
 
-                        <Container id="box-info">
+                    </Container>
+                    <Container>
 
-                        </Container>
-
-                        <Container id="box-circulo">
-                            <Container id="box-cinculo_interno">
-
-                            </Container>
-                        </Container>
-
-                    </Jumbotron>
-                    <Container id="box-lateral" />
+                    </Container>
                 </Jumbotron>
+                {/* </Jumbotron> */}
             </>
         );
     }

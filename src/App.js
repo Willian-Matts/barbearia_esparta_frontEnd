@@ -5,7 +5,6 @@ import MenuNav from './components/MenuNav';
 import DivInicial from './components/DivInicial';
 import Divisoria from './components/Divisoria';
 import Rodape from './components/Rodape';
-
 import { Jumbotron } from 'react-bootstrap';
 
 class App extends Component {
@@ -13,12 +12,10 @@ class App extends Component {
   render() {
     return (
       <>
-        <Jumbotron id="fundo-inicio">
-          <MenuNav />
-          <DivInicial />
-        </Jumbotron>
+        <DivInicial />
         <Divisoria />
         <Rodape />
+        <MenuNav />
       </>
     );
   }
