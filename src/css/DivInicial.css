@@ -1,15 +1,7 @@
-#fundo-inicio {
+#box-div-inicial {
     border-radius: 0;
-    background-image: url('../image/post-blog-estudio-roxo-o-sucesso-das-barbearias-2-4-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0;
-    padding-top: 40vh;
-    padding-bottom: 40vh;
     margin: 0;
-}
-#box-div-inicial{
-    border-radius: 0;
     padding-top: 100vh;
     height: 20vw;
 }
+

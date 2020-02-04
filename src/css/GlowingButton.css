@@ -1,0 +1,53 @@
+.Glowing {
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 2vh;
+    font-size: 200%;
+    padding: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* background: linear-gradient(110deg, white, orange , yellow, red, orange , yellow, white, rgb(0, 119, 128),  blue, indigo); */
+    background: linear-gradient(115deg, #03a9f4, #f44141, #03a9f4);
+    background-size: 400%;
+    border: 0;
+    z-index: 1;
+}
+
+.Glowing:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+.Glowing:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 2vh;
+    background: linear-gradient(115deg, #03a9f4, #f44141, #03a9f4);
+    background-size: 400%;
+    border: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Glowing:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}

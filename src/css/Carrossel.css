@@ -1,12 +1,13 @@
-#box-carrosel{
+#box-carrosel {
     position: relative;
     border-radius: 0;
     padding: 0;
     margin: 0;
 }
 
-.img1{
-    background-image: url('../image/post-blog-estudio-roxo-o-sucesso-das-barbearias-2-4-2.jpg');
-    height: 100vh;
-    overflow: hidden;
+#divisao-carrosel {
+    border-radius: 0;
+    margin: 0;
+    padding: 2vh;
+    background-color: rgb(46, 46, 46);
 }

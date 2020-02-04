@@ -9,7 +9,6 @@ export default class DivInicial extends Component {
         return (
             <>
                 <Carrossel />
-                {/* <Jumbotron id="fundo-inicio"> */}
                 <Jumbotron id="box-div-inicial">
                     <Container>
 
@@ -18,7 +17,6 @@ export default class DivInicial extends Component {
 
                     </Container>
                 </Jumbotron>
-                {/* </Jumbotron> */}
             </>
         );
     }
