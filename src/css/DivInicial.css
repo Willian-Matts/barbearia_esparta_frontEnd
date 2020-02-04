@@ -3,5 +3,16 @@
     margin: 0;
     padding-top: 100vh;
     height: 20vw;
+    background-color: white;
 }
 
+/* #cortina{
+    position: relative;
+    border-radius: 0;
+    width: 98.88vw;
+    height: 117.55vh;
+    top:0vw;
+    margin: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.26);
+} */

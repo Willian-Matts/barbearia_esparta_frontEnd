@@ -1,10 +1,10 @@
-.Glowing {
+.glowing {
     position: relative;
     width: auto;
     height: auto;
     border-radius: 2vh;
     font-size: 200%;
-    padding: 0;
+    padding: 1%;
     padding-left: 3%;
     padding-right: 3%;
     font-family: sans-serif;
@@ -13,10 +13,9 @@
     background-size: 400%;
     border: 0;
     z-index: 1;
-    transition: 0s;
 }
 
-.Glowing:hover {
+.glowing:hover {
     animation: animate 8s linear infinite;
 }
 
@@ -29,7 +28,7 @@
     }
 }
 
-.Glowing:before {
+.glowing:before {
     content: '';
     position: absolute;
     z-index: -1;
@@ -45,7 +44,7 @@
     transition: 0.5s;
 }
 
-.Glowing:hover:before {
+.glowing:hover:before {
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;

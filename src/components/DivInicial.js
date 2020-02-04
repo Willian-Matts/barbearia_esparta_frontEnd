@@ -9,6 +9,7 @@ export default class DivInicial extends Component {
         return (
             <>
                 <Carrossel />
+                <Jumbotron id="cortina" />
                 <Jumbotron id="box-div-inicial">
                     <Container>
 
