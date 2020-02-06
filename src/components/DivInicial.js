@@ -20,9 +20,15 @@ export default class DivInicial extends Component {
                             <img src={Barbeiro} alt="Foto do barbeiro" />
                         </Container>
                     </Jumbotron>
-                    <Jumbotron id="box-info-indereco">
-                        <Container id="info-indereco">
-
+                    <Jumbotron id="box-info-horario">
+                        <Container id="info-horario">
+                            <h2>Horário de atendimento</h2>
+                            <Container id="horario">
+                                <h3 id="meio-semana">Segunda a sexta-feira</h3>
+                                <p id="h-meio-semana">17h às 20h</p>
+                                <h3 id="final-semana">Finais de semana</h3>
+                                <p id="h-final-semana">08h às 12h14h às 17h</p>
+                            </Container>
                         </Container>
                     </Jumbotron>
                 </Jumbotron>

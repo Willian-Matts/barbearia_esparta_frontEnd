@@ -30,12 +30,6 @@ export default class MenuNav extends Component {
                                 <Nav.Link href="#home">
                                     <ButtonNav value="testando" />
                                 </Nav.Link>
-                                <Nav.Link href="#home">
-                                    <ButtonNav value="teste" />
-                                </Nav.Link>
-                                <Nav.Link href="#home">
-                                    <ButtonNav value="testando" />
-                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>

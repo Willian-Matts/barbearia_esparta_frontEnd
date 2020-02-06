@@ -18,7 +18,8 @@
     background-image: url('../image/drive-download-20200204T174718Z-001/268682-P5602W-935.jpg');
     background-size: cover;
 }
-#box-principal #box-info-barbeiro{
+
+#box-principal #box-info-barbeiro {
     position: relative;
     display: flex;
     width: auto;
@@ -78,8 +79,7 @@
     right: 2vh;
     height: 100%;
     width: 100%;
-    border: 3px;
-    border-style: solid;
+    border: 2px solid;
     border-color: #c78b3b;
     background-color: transparent;
 }
@@ -89,7 +89,9 @@
     height: 100%;
 }
 
-#box-principal #box-info-indereco {
+/* ------------------------------------------------------------------------------------- */
+
+#box-principal #box-info-horario {
     position: relative;
     display: flex;
     border-radius: 0;
@@ -100,9 +102,97 @@
     justify-content: center;
     background-color: transparent;
 }
-#box-principal #box-info-indereco #info-indereco {
+
+#box-principal #box-info-horario #info-horario {
     position: relative;
+    display: flex;
     width: 55vw;
     height: 60vh;
+    justify-content: center;
     background-color: #262322a1;
+}
+
+#box-principal #box-info-horario #info-horario h2 {
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    font-size: 150%;
+    padding-top: 8vh;
+}
+
+#box-principal #box-info-horario #info-horario #horario {
+    content: "";
+    border-radius: 0;
+    position: absolute;
+    width: 50vw;
+    height: 40vh;
+    top: 15vh;
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+    border-color: #c78b3b;
+    background-color: transparent;
+}
+
+#box-principal #box-info-horario #info-horario #horario #meio-semana {
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+    padding-top: 1vh;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+#box-principal #box-info-horario #info-horario #horario #h-meio-semana {
+    color: #c78b3b;
+    font-family: sans-serif;
+    font-size: 150%;
+    padding-top: 5vh;
+    margin-left: 19vw;
+    margin-right: 18vw;
+}
+
+#box-principal #box-info-horario #info-horario #horario #h-meio-semana::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    top: 20vh;
+    left: 25vh;
+    border: 1px solid;
+    border-color: #c78b3b;
+}
+
+#box-principal #box-info-horario #info-horario #horario #final-semana {
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+    padding-top: 8vh;
+    justify-content: center;
+    margin-left: 13vw;
+    margin-right: 9vw;
+}
+
+#box-principal #box-info-horario #info-horario #horario #h-final-semana {
+    color: #c78b3b;
+    font-family: sans-serif;
+    font-size: 150%;
+    padding-top: 5vh;
+
+}
+
+#box-principal #box-info-horario #info-horario #horario #h-final-semana::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 10%;
+    top: 34vh;
+    left: 50vh;
+    border: 1px solid;
+    border-color: #c78b3b;
 }
