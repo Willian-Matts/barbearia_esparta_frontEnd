@@ -26,8 +26,9 @@ export default class DivInicial extends Component {
                             <Container id="horario">
                                 <h3 id="meio-semana">Segunda a sexta-feira</h3>
                                 <p id="h-meio-semana">17h às 20h</p>
+                                <hr />
                                 <h3 id="final-semana">Finais de semana</h3>
-                                <p id="h-final-semana">08h às 12h14h às 17h</p>
+                                <p id="h-final-semana">08h às 12h 14h às 17h</p>
                             </Container>
                         </Container>
                     </Jumbotron>
