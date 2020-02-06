@@ -1,18 +1,108 @@
-#box-div-inicial {
-    border-radius: 0;
-    margin: 0;
-    padding-top: 100vh;
-    height: 20vw;
-    background-color: white;
+@font-face {
+    font-family: 'chunkfiveex';
+    src: url('./chunkfiveex/ChunkfiveEx.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
-/* #cortina{
+#box-principal {
     position: relative;
     border-radius: 0;
-    width: 98.88vw;
-    height: 117.55vh;
-    top:0vw;
     margin: 0;
+    padding: 10vh;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: auto;
+    height: auto;
+    background-image: url('../image/drive-download-20200204T174718Z-001/268682-P5602W-935.jpg');
+    background-size: cover;
+}
+#box-principal #box-info-barbeiro{
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+#box-principal #box-info-barbeiro #info-barbeiro {
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    padding-left: 15vw;
+    padding-top: 5vh;
+    background-color: #262322a1;
+}
+
+#box-principal #box-info-barbeiro #info-barbeiro::before {
+    content: "";
     position: absolute;
-    background: rgba(0, 0, 0, 0.26);
-} */
+    width: 20%;
+    border: 1px;
+    top: 4vh;
+    border-style: solid;
+    background: transparent;
+    border-color: white;
+}
+
+#box-principal #box-info-barbeiro #info-barbeiro h2 {
+    color: #c78b3b;
+    font-family: "chunkfiveex";
+}
+
+#box-principal #box-info-barbeiro #info-barbeiro p {
+    font-size: 125%;
+    color: #c78b3b;
+    font-family: "lato";
+}
+
+#box-principal #box-info-barbeiro #img-barbeiro {
+    position: relative;
+    display: flex;
+    margin-right: 10vw;
+    width: auto;
+    height: 50vh;
+    padding: 0;
+    background-color: #c78b3b;
+}
+
+#box-principal #box-info-barbeiro #img-barbeiro::after {
+    content: '';
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    height: 100%;
+    width: 100%;
+    border: 3px;
+    border-style: solid;
+    border-color: #c78b3b;
+    background-color: transparent;
+}
+
+#box-principal #box-info-barbeiro #img-barbeiro img {
+    width: 100%;
+    height: 100%;
+}
+
+#box-principal #box-info-indereco {
+    position: relative;
+    display: flex;
+    border-radius: 0;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 10vh;
+    justify-content: center;
+    background-color: transparent;
+}
+#box-principal #box-info-indereco #info-indereco {
+    position: relative;
+    width: 55vw;
+    height: 60vh;
+    background-color: #262322a1;
+}

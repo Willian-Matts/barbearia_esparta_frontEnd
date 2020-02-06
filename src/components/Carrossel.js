@@ -16,24 +16,26 @@ export default class Carrossel extends Component {
                         <Carousel.Item className="imgCarrosel">
                             <img className="d-block w-100" src={Img01} alt="Imagem barbearia" />
                             <Carousel.Caption>
-                                <GlowingButton value="teste" />
+
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item className="imgCarrosel"> 
+                        <Carousel.Item className="imgCarrosel">
                             <img className="d-block w-100" src={Img02} alt="Imagem barbearia" />
                             <Carousel.Caption>
-                                <GlowingButton value="teste" />
+
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item className="imgCarrosel">
                             <img className="d-block w-100" src={Img03} alt="Imagem barbearia" />
                             <Carousel.Caption>
-                                <GlowingButton value="teste" />
+
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
                 </Jumbotron>
-                <Jumbotron id="divisao-carrosel" />
+                <Jumbotron id="divisao-carrosel">
+                    <GlowingButton value="teste" />
+                </Jumbotron>
             </>
         );
     }
