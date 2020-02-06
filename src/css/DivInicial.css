@@ -42,7 +42,7 @@
 #box-principal #box-info-barbeiro #info-barbeiro::before {
     content: "";
     position: absolute;
-    width: 20%;
+    width: 8%;
     border: 1px;
     top: 4vh;
     border-style: solid;
