@@ -29,39 +29,6 @@
     background: transparent;
 }
 
-#box-principal #box-info-barbeiro #info-barbeiro {
-    position: relative;
-    text-align: justify;
-    text-justify: inter-word;
-    margin-right: 10vw;
-    margin-top: 10vh;
-    padding-left: 15vw;
-    padding-top: 5vh;
-    background-color: #262322a1;
-}
-
-#box-principal #box-info-barbeiro #info-barbeiro::before {
-    content: "";
-    position: absolute;
-    width: 8%;
-    border: 1px;
-    top: 4vh;
-    border-style: solid;
-    background: transparent;
-    border-color: white;
-}
-
-#box-principal #box-info-barbeiro #info-barbeiro h2 {
-    color: #c78b3b;
-    font-family: "chunkfiveex";
-}
-
-#box-principal #box-info-barbeiro #info-barbeiro p {
-    font-size: 125%;
-    color: #c78b3b;
-    font-family: "lato";
-}
-
 #box-principal #box-info-barbeiro #img-barbeiro {
     position: relative;
     display: flex;

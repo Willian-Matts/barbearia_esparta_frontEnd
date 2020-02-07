@@ -5,6 +5,7 @@ import MenuNav from './components/MenuNav';
 import DivInicial from './components/DivInicial';
 import Divisoria from './components/Divisoria';
 import Rodape from './components/Rodape';
+import Mapa from './components/Mapa';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
       <>
         <DivInicial />
         <Divisoria />
+        <Mapa />
         <Rodape />
         <MenuNav />
       </>
