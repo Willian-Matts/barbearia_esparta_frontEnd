@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../css/CampoInfo.css';
 import { Container } from 'react-bootstrap'
 
-export default class CampoInfo extends Component {
+export default function CampoInfo(props) {
 
-    render() {
-        return (
-            <Container id="info-barbeiro">
-                <h2>SOBRE NÓS</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </Container>
-        );
-    }
+    return (
+        <Container id="info-barbeiro">
+            <h2>{props.titulo}</h2>
+            <p>{props.info}</p>
+        </Container>
+    );
 }

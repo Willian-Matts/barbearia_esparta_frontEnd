@@ -1,12 +1,15 @@
 #info-barbeiro {
+    width: auto;
+    height: min-content;
     position: relative;
     text-align: justify;
-    text-justify: inter-word;
+    margin: 0;
     margin-right: 10vw;
     margin-top: 10vh;
     padding-left: 15vw;
     padding-top: 5vh;
-    background-color: #262322a1;
+    padding-bottom: 5vh;
+    background-color: #262322cb;
 }
 
 #info-barbeiro::before {
@@ -21,6 +24,7 @@
 }
 
 #info-barbeiro h2 {
+    text-transform: uppercase;
     color: #c78b3b;
     font-family: "chunkfiveex";
 }

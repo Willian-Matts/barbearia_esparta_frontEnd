@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../css/Mapa.css';
 import { Jumbotron } from 'react-bootstrap'
 
-export default class CampoInfo extends Component {
+export default function Mapa() {
 
-    render() {
-        return (
-            <Jumbotron id="mapa">
-                
-            </Jumbotron>
-        );
-    }
+    return (
+        <Jumbotron id="mapa">
+
+        </Jumbotron>
+    );
 }
