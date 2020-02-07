@@ -1,13 +1,35 @@
-import React from 'react';
+import React, { Component }  from 'react';
+import GoogleMapReact from 'google-map-react';
 
-import '../css/Mapa.css';
-import { Jumbotron } from 'react-bootstrap'
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default function Mapa() {
+class SimpleMap extends Component {
+  static defaultProps = {
+    center: {
+      lat: -15.1746014,
+      lng: -49.8083994
+    },
+    zoom: 18
+  };
 
+  render() {
     return (
-        <Jumbotron id="mapa">
-
-        </Jumbotron>
+      // Important! Always set the container height explicitly
+      <div style={{ height: '100vh', width: '100%' }}>
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: "AIzaSyCyNMUjPXsAannalkp24V9fWm6ItMsZGCo" /* KEY da API do Google */ }}
+          defaultCenter={this.props.center}
+          defaultZoom={this.props.zoom}
+        >
+          <AnyReactComponent
+            lat={-15.1746014}
+            lng={-49.8083994}
+            text="Barbearia Esparta" 
+          />
+        </GoogleMapReact>
+      </div>
     );
+  }
 }
+
+export default SimpleMap;
