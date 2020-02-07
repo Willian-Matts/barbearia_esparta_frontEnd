@@ -1,0 +1,12 @@
+h1{
+    font-family: "chunkfiveex";
+    color: white;
+}
+
+#card{
+    background-color: transparent;
+}
+
+#card .box-card{
+    background-color: #26232200;
+}
