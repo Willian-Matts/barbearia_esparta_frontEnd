@@ -5,8 +5,11 @@ h1{
 
 #card{
     background-color: transparent;
+    margin: 1vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 #card .box-card{
-    background-color: #26232200;
+    background-color: #262322d7;
 }
