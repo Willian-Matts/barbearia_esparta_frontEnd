@@ -1,6 +1,6 @@
 h1{
     font-family: "chunkfiveex";
-    color: white;
+    color: #c78b3b;
 }
 
 #card{
@@ -12,4 +12,9 @@ h1{
 
 #card .box-card{
     background-color: #262322d7;
+}
+
+#card .box-card #info-card{
+    font-family: "chunkfiveex";
+    color: white;
 }

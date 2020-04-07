@@ -14,8 +14,8 @@ export default function CardServico(props) {
                 <Card.Img variant="top" src={props.img} />
                 <Card.Body className="box-card">
                     <Card.Title><h1>{props.cardTitulo}</h1></Card.Title>
-                    <Card.Text>
-                        {props.cardInfo}
+                    <Card.Text id="info-card">
+                       {props.cardInfo}
                     </Card.Text>
                 </Card.Body>
             </Card>
