@@ -8,9 +8,9 @@ import img1 from '../image/drive-download-20200204T174718Z-001/334600-P9WF72-751
 import img2 from '../image/drive-download-20200204T174718Z-001/268707-P5604V-803.jpg';
 import img3 from '../image/drive-download-20200204T174718Z-001/21506.jpg';
 
-let cardInfo1 = "";
-let cardInfo2 = "";
-let cardInfo3 = "";
+let cardInfo1 = "Test";
+let cardInfo2 = "Test";
+let cardInfo3 = "Test";
 
 let info = "Serviços completos de barba e cabelo.";
 let titulo = "Serviços";
