@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+.imgCarrosel{
+    width: 100%;
+    height: 100%;
+}
+
 #divisao-carrosel {
     position: relative;
     justify-content: center;
@@ -13,8 +18,4 @@
     margin: 0;
     padding: 2vh;
     background-color: #262322;
-}
-.imgCarrosel{
-    width: 100%;
-    height: 100%;
 }

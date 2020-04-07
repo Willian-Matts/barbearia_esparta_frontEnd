@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import '../css/Rodape.css';
-import { Jumbotron, Container } from 'react-bootstrap'
+import logoVetor from '../image/logo/Logo-3.svg';
+import { Jumbotron, Container, Nav } from 'react-bootstrap'
 
 export default class Rodape extends Component {
     render() {
@@ -12,7 +13,9 @@ export default class Rodape extends Component {
                         {/* redes sociais  */}
                     </Container>
                     <Container id="box-Logo-rodape">
-                        {/* Logo */}
+                        <Nav.Link href="#box-div-inicial">
+                            <img src={logoVetor} alt="Logo Barbearia" />
+                        </Nav.Link>
                     </Container>
                 </Jumbotron>
             </>
