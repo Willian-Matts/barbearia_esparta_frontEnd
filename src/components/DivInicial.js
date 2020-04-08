@@ -6,7 +6,7 @@ import Carrossel from './Carrossel';
 import CampoInfo from './CampoInfo';
 import Barbeiro from '../image/drive-download-20200204T174718Z-001/2687385.jpg';
 
-let info = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+let info = "Somos dedicados a trazer conforto aos homens em um ambiente agradável e aconchegante, no qual se sintam membros da família espartana. Aqui, barba, cabelo e bigode é coisa séria!";
 let titulo = "Sobre nós";
 
 export default class DivInicial extends Component {
