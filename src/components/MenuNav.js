@@ -27,8 +27,8 @@ export default class MenuNav extends Component {
                                 <Nav.Link href="#box-divisoria">
                                     <ButtonNav value="Serviços" />
                                 </Nav.Link>
-                                <Nav.Link href="#home">
-                                    <ButtonNav value="Localização*" />
+                                <Nav.Link href="#mapa">
+                                    <ButtonNav value="Localização" />
                                 </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

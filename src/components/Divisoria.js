@@ -8,8 +8,8 @@ import img1 from '../image/drive-download-20200204T174718Z-001/334600-P9WF72-751
 import img2 from '../image/drive-download-20200204T174718Z-001/268707-P5604V-803.jpg';
 import img3 from '../image/drive-download-20200204T174718Z-001/21506.jpg';
 
-let cardInfo1 = "Test";
-let cardInfo2 = "Test";
+let cardInfo1 = "Test do teste";
+let cardInfo2 = "Test do teste";
 let cardInfo3 = "Test";
 
 let info = "Serviços completos de barba e cabelo.";
@@ -26,7 +26,6 @@ export default class Divisoria extends Component {
                     <Jumbotron id="box-card-servico">
                         <Carousel id="card-carrosel">
                             <Carousel.Item className="info-Carrosel">
-                                {/* <img className="d-block w-100" src={img1} alt="Foto do barbeiro"/>  */}
                                 <CardServico img={img1} cardTitulo="Barba" cardInfo={cardInfo1} />
                             </Carousel.Item>
 
@@ -35,7 +34,7 @@ export default class Divisoria extends Component {
                             </Carousel.Item>
 
                             <Carousel.Item className="info-Carrosel">
-                                <CardServico img={img3} cardTitulo="Barba e cabelo" cardInfo={cardInfo3} />
+                                <CardServico img={img3} cardTitulo="Barbearia" cardInfo={cardInfo3} />
                             </Carousel.Item>
                         </Carousel>
                     </Jumbotron>

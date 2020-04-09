@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 
 import '../css/Rodape.css';
 import logoVetor from '../image/logo/Logo-3.svg';
+import instagran from '../image/logo/Logo-3.svg';
 import { Jumbotron, Container, Nav } from 'react-bootstrap'
+import Glowingbutton from './GlowingButton';
+
 
 export default class Rodape extends Component {
     render() {
@@ -11,9 +14,10 @@ export default class Rodape extends Component {
                 <Jumbotron id="box-rodape">
                     <Container id="box-redes-sociais">
                         {/* redes sociais  */}
+                        <Glowingbutton value={instagran} alt="teste"/>
                     </Container>
                     <Container id="box-Logo-rodape">
-                        <Nav.Link href="#box-div-inicial">
+                        <Nav.Link href="#box-carrosel">
                             <img src={logoVetor} alt="Logo Barbearia" />
                         </Nav.Link>
                     </Container>
