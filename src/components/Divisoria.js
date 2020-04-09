@@ -35,7 +35,7 @@ export default class Divisoria extends Component {
                             </Carousel.Item>
 
                             <Carousel.Item className="info-Carrosel">
-                                <CardServico img={img3} cardTitulo="Barba" cardInfo={cardInfo3} />
+                                <CardServico img={img3} cardTitulo="Barba e cabelo" cardInfo={cardInfo3} />
                             </Carousel.Item>
                         </Carousel>
                     </Jumbotron>
