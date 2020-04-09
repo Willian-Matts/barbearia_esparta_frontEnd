@@ -21,14 +21,14 @@ export default class MenuNav extends Component {
                                 <Nav.Link href="#box-carrosel">
                                     <ButtonNav value="Inicio" />
                                 </Nav.Link>
-                                <Nav.Link href="#home">
-                                    <ButtonNav value="testando" />
+                                <Nav.Link href="#box-principal">
+                                    <ButtonNav value="Sobre Nós" />
+                                </Nav.Link>
+                                <Nav.Link href="#box-divisoria">
+                                    <ButtonNav value="Serviços" />
                                 </Nav.Link>
                                 <Nav.Link href="#home">
-                                    <ButtonNav value="teste" />
-                                </Nav.Link>
-                                <Nav.Link href="#home">
-                                    <ButtonNav value="testando" />
+                                    <ButtonNav value="Localização*" />
                                 </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
