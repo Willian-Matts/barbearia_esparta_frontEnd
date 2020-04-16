@@ -1,4 +1,4 @@
-#box-rodape{
+#box-rodape {
     display: flex;
     border-radius: 0;
     margin: 0;
@@ -7,7 +7,7 @@
     background-color: rgb(29, 29, 29);
 }
 
-#box-rodape #box-Logo-rodape{
+#box-rodape #box-Logo-rodape {
     border-radius: 100%;
     margin-top: 0.1vh;
     margin-bottom: 0.1vh;
@@ -19,26 +19,30 @@
     background-image: linear-gradient(180deg, rgba(184, 184, 184, 0.397), rgba(184, 184, 184, 0));
 }
 
-#box-rodape #box-redes-sociais{
+#box-rodape #box-redes-sociais {
     display: flex;
-    width: 30%;
     padding: 0;
-    
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
-    /*background-color: turquoise;*/    
+    /*background-color: turquoise;*/
 }
 
 #box-rodape #box-redes-sociais #button_instagram {
-    background-color:transparent;    
+    background-color: transparent;
     padding: 0;
-    border: 0;     
-    
+    border: 0;
+    transition: 0.3s;
 }
-#box-rodape #box-redes-sociais #button_instagram img{
-    width:8vh;
-    height:8vh;      
+
+#box-rodape #box-redes-sociais #button_instagram:hover {
+    border: 3px solid;
+    border-color: #c78b3b;
+    /* background-color: rgba(131, 130, 130, 0.473); */
+}
+
+#box-rodape #box-redes-sociais #button_instagram img {
+    width: 5vw;
+    height: 10vh;
 }
