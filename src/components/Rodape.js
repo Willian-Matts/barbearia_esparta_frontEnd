@@ -16,7 +16,7 @@ export default class Rodape extends Component {
                         {/* redes sociais  */}
                         {/*<Glowingbutton value={instagran} alt="teste"/>*/}
                         <Button id="button_instagram" href="https://www.instagram.com/ronaldinho">  
-                            <img id="instagram" src={instagram} alt="Instagram" />                    
+                            <img src={instagram} alt="Instagram" />                    
                         </Button>
                     </Container>
                     <Container id="box-Logo-rodape">

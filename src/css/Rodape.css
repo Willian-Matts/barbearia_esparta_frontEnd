@@ -20,6 +20,7 @@
 }
 
 #box-rodape #box-redes-sociais{
+    display: flex;
     width: 30%;
     padding: 0;
     
@@ -37,7 +38,7 @@
     border: 0;     
     
 }
-#box-rodape #box-redes-sociais #button_instagram #instagram{
+#box-rodape #box-redes-sociais #button_instagram img{
     width:8vh;
     height:8vh;      
 }
