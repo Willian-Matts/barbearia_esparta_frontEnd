@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import '../css/Rodape.css';
 import logoVetor from '../image/logo/Logo-3.svg';
-//import instagran from '../image/logo/Logo-3.svg';
+import instagram from '../image/instagram.png';
 import { Jumbotron, Container, Nav, Button } from 'react-bootstrap'
 //import Glowingbutton from './GlowingButton';
 
@@ -15,7 +15,8 @@ export default class Rodape extends Component {
                     <Container id="box-redes-sociais">
                         {/* redes sociais  */}
                         {/*<Glowingbutton value={instagran} alt="teste"/>*/}
-                        <Button href="https://www.instagram.com/ronaldinho">                            
+                        <Button id="button_instagram" href="https://www.instagram.com/ronaldinho">  
+                            <img id="instagram" src={instagram} alt="Instagram" />                    
                         </Button>
                     </Container>
                     <Container id="box-Logo-rodape">

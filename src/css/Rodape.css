@@ -22,5 +22,22 @@
 #box-rodape #box-redes-sociais{
     width: 30%;
     padding: 0;
-    background-color: turquoise;
+    
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    /*background-color: turquoise;*/    
+}
+
+#box-rodape #box-redes-sociais #button_instagram {
+    background-color:transparent;    
+    padding: 0;
+    border: 0;     
+    
+}
+#box-rodape #box-redes-sociais #button_instagram #instagram{
+    width:8vh;
+    height:8vh;      
 }
