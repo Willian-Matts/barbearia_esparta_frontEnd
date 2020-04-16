@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'chunkfiveex';
+    src: url('./chunkfiveex/ChunkfiveEx.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 #box-rodape {
     display: flex;
     border-radius: 0;
@@ -41,15 +47,76 @@
     padding: 0;
     border: 0;
     transition: 0.3s;
+    
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    text-align: center;
+    font-size: 150%;
 }
 
 #box-rodape #box-redes-sociais #button_instagram:hover {
     border: 3px solid;
-    border-color: #c78b3b;
+    border-color: #c78b3b;        
+    
     /* background-color: rgba(131, 130, 130, 0.473); */
 }
 
 #box-rodape #box-redes-sociais #button_instagram img {
     width: 5vw;
-    height: 10vh;
+    height: 10vh;    
+}
+
+#box-rodape #box-redes-sociais #button_instagram {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    transition: 0.3s;
+    
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    text-align: center;
+    font-size: 150%;
+}
+
+
+#box-rodape #box-redes-sociais #button_instagram {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    transition: 0.3s;
+    
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+#box-rodape #box-redes-sociais #button_whatsapp:hover {
+    border: 3px solid;
+    border-color: #c78b3b;        
+    
+    /* background-color: rgba(131, 130, 130, 0.473); */
+}
+
+#box-rodape #box-redes-sociais #button_whatsapp img {
+    width: 5vw;
+    height: 10vh;    
+}
+
+#box-rodape #box-redes-sociais #button_whatsapp {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    transition: 0.3s;
+    
+    color: White;
+    text-transform: uppercase;
+    font-family: "chunkfiveex";
+    text-align: center;
+    font-size: 150%;
 }
