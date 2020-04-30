@@ -18,15 +18,14 @@ export default class Rodape extends Component {
                         {/*<Glowingbutton value={instagran} alt="teste"/>*/}
                         <Button id="button_instagram" href="https://www.instagram.com/ronaldinho">  
                             <img src={instagram} alt="Instagram"/> 
-                            <a>@barbeariaesparta</a>                
+                            @barbeariaesparta                
                         </Button>
-                        
                         
                         <Button id="button_whatsapp" href="https://wa.me/5562984137094?text=sua%20mensagem">  
                             <img src={whatsapp} alt="Whatsapp"/> 
-                            <a>(62) 9 8413-7094</a>                
+                            (62) 9 8413-7094               
                         </Button>
-                        
+                        <p> Avenida Mandassaia, Qd x Lt y, Setor Bouganvile, Rubiataba, GO</p> {/*Temporario. arrumar isso aqui depois XD*/}                        
                         
                     </Container>
                     <Container id="box-Logo-rodape">
